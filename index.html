@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Consulta CEP</title>
+
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="main.js" defer></script>
+    </head>
+
+    <body>
+        
+        <div class="container">
+
+            <h2>Bem-vindo ao <span class="site-name">Consulta CEP</span>!</h2>
+
+            <div class="forms">
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" placeholder="Digite o seu CEP">
+                <p class="warning">CEP errado, tente novamente!</p>
+                <br>
+                <br>
+                <button>Buscar</button>
+
+                <div class="attribution">
+                    Background Photo by <a href="https://unsplash.com/@anniespratt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Annie Spratt</a> on <a href="https://unsplash.com/photos/white-and-green-state-maps-AFB6S2kibuk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+                </div>
+            </div>
+
+            <!-- Card com as informações (escondidas até o usuário buscar o CEP) -->
+            <div class="card">
+                <h3>Procurando por isso?</h3>
+                <ul>
+                    <li id="cepNumber"></li>
+                    <li id="logradouro"></li>
+                    <li id="uf"></li>
+                    <li id="localidade"></li>
+                    <li id="bairro"></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </body>
+</html>
