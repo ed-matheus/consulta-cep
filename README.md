@@ -3,7 +3,7 @@
 
 ## Olá, tudo certo? 
 
-Obrigado por estar olhando meu projeto!
+Obrigado por estar verificando meu projeto!
 
 Este website foi feito com o intuito de buscar CEPs puxando os dados da API via JavaScript, e mostrando os dados
 ao usuário.
