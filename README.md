@@ -5,8 +5,8 @@
 
 Obrigado por estar verificando meu projeto!
 
-Este website foi feito com o intuito de buscar CEPs puxando os dados da API via JavaScript, e mostrando os dados
-ao usuário.
+Este website foi feito com o intuito de buscar CEPs puxando os dados da API via Fetch com JavaScript, mostrando os dados
+ao usuário logo em seguida.
 
 Feito basicamente com:
 - HTML5
